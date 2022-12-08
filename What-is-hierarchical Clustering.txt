@@ -1,21 +1,28 @@
 
 
-◼️ Clustering is basically a technique that groups similar data points such that the points in the same group are more similar to each other than the points in the other groups. The group of similar data points is called a Cluster.
+◼️ Clustering is basically a technique that groups similar data points such that the points in the same group are more similar 
+to each other than the points in the other groups. The group of similar data points is called a Cluster.
 
 ◼️ Hierarchical clustering is another unsupervised machine learning algorithm, which is used to group the unlabeled datasets into a cluster.
 
 ◼️ In this algorithm, we develop the hierarchy of clusters in the form of a tree, and this tree-shaped structure is known as the dendrogram.
 
 ◼️ The hierarchical clustering technique has two approaches:
--> Agglomerative: Agglomerative is a bottom-up approach, in which the algorithm starts with taking all data points as single clusters and merging them until one cluster is left.
+-> Agglomerative: Agglomerative is a bottom-up approach, in which the algorithm starts with taking all data points 
+   as single clusters and merging them until one cluster is left.
 -> Divisive: Divisive algorithm is the reverse of the agglomerative algorithm as it is a top-down approach.
 
 ◼️ Space and Time Complexity of Hierarchical clustering Technique:
--> Space complexity: The space required for the Hierarchical clustering Technique is very high when the number of data points are high as we need to store the similarity matrix in the RAM. The space complexity is the order of the square of n. Space complexity = O(n²) where n is the number of data points.
--> Time complexity: Since we’ve to perform n iterations and in each iteration, we need to update the similarity matrix and restore the matrix, the time complexity is also very high. The time complexity is the order of the cube of n. Time complexity = O(n³) where n is the number of data points.
+-> Space complexity: The space required for the Hierarchical clustering Technique is very high when the number of data points 
+are high as we need to store the similarity matrix in the RAM. The space complexity is the order of the square of n. 
+Space complexity = O(n²) where n is the number of data points.
+-> Time complexity: Since we’ve to perform n iterations and in each iteration, we need to update the similarity matrix 
+and restore the matrix, the time complexity is also very high. The time complexity is the order of the cube of n.
+Time complexity = O(n³) where n is the number of data points.
 
 ◼️ Limitations of Hierarchical clustering Technique:
 -> There is no mathematical objective for Hierarchical clustering.
 -> All the approaches to calculate the similarity between clusters has its own disadvantages.
--> High space and time complexity for Hierarchical clustering. Hence this clustering algorithm cannot be used when we have huge data.
+-> High space and time complexity for Hierarchical clustering. Hence this clustering algorithm 
+   cannot be used when we have huge data.
 
