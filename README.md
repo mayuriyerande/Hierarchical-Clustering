@@ -4,5 +4,5 @@
 
 ##### ◼️Hierarchical clustering is another unsupervised machine learning algorithm, which is used to group the unlabeled datasets into a cluster.
 
-<img src="https://static.javatpoint.com/tutorial/machine-learning/images/hierarchical-clustering-in-machine-learning15.png" width="300" height="350">
+<img src="https://static.javatpoint.com/tutorial/machine-learning/images/hierarchical-clustering-in-machine-learning15.png" width="300" height="400">
 
